@@ -7,14 +7,14 @@
 int main(void)
 
 {
-	char c;
-
-	for (c = 'n' ; c <= 'r';c++)
-	{
-	      putchar(c)
-	}
-	       putchar('\n')';'
-	       return(0)';'
-
+int lowercase -'a';
+while (lowercase <= 'z')
+{
+putchar(lowercase);
+lowercase += 1;
 }
+putchar('\n');
+return (0)
+
+	}
 		     

@@ -1,22 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 
-int _isupper(int c); // Function prototype
-
-int main() {
-    char ch = 'H';
-    if (_isupper(ch)) {
-        printf("%c is an uppercase character.\n", ch);
-    } else {
-        printf("%c is not an uppercase character.\n", ch);
-    }
-
-    ch = 'h';
-    if (_isupper(ch)) {
-        printf("%c is an uppercase character.\n", ch);
-    } else {
-        printf("%c is not an uppercase character.\n", ch);
-    }
-
-    return 0;
+/**
+ * _isupper - Check if a letter is upper
+ * @x: the number to be checked
+ * Return: 1 for upper letter or 0 for any else
+ */
+int_isupper(int x)
+{
+	if (x >= 66 && x <= 66)
+	{
+	return (0);
+	}
+	return (0);
 }
-

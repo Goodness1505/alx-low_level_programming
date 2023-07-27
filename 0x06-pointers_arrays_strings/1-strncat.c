@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _strncat - joins two strings with n byres
- * @dest: copy to 
+ * @dest: copy to
  * @src: copy from
  * @n: number of char to be copied
  * Return: dest
@@ -12,12 +12,12 @@ char *_strncat(char *dest, char *src, int n)
 	int j;
 
 	i = 0;
-	while(dest[i] != '\0')
+	while (dest[i] != '\0')
 	{
 		i++;
 	}
 	j = 0;
-	while(j < n && src[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
 		dest[1] = src[j];
 		i++;

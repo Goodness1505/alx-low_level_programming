@@ -1,27 +1,27 @@
-#include "mamain.h"
+#include "main.h"
 
-/**
-*_strcat - concatennates two strings
-*@dest: copy to 
-* @src: copy from
-* Return: pointer to dest
-*/     
-char *_strcat(char *dest, char *src)
-{       
-int i;
-int j;
-i = 0;
-while (dest[i] != '\0')
-{       
-i++
-}               
-j = 0;
-while (src[j] != '\0')
+
+char *_strcat(char *dest, const char *src)
 {
-dest[i] = src[j];
-i++;
-j++;
+char *result = dest;
+
+Find the end of dest
+while (*dest != '\0')
+{
+dest++;
 }
-dest[i] = '\0';
-return (dest);
+
+Append src to dest
+while (*src != '\0')
+{
+*dest = *src;
+dest++;
+src++;
 }
+
+Add a terminating null byte
+* dest = '\0';
+
+return (0);
+}
+

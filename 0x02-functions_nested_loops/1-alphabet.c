@@ -1,31 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - Prints putchar
- * Return: Always 0.
- */
-int main(void)
-{
-void print_alphabet(void)
-int _putchar(char c) 
-{
-return putchar(c);
-}
+*print_alphabet - function that print alphabet
+*it prints in lowercase
+*Return: no return
+*/
 void print_alphabet(void)
 {
-char current_letter <= 'a';
-for (; current_letter <= 'm'; current_letter++)
+int letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-_putchar(current_letter);
+_putchar (letter);
 }
-_putchar('\n');
-for (; current_letter <= 'z'; current_letter++)
-{	
-_putchar(current_letter);
-_putchar('\n');
+_putchar (10);
 }
-int main(void)
-{
-print_alphabet(int);
-return (0);
-}
-

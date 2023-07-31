@@ -1,17 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * reset_to_98 - function that takes a pointer to an int as parameter and updates the value it points to (98)
+ * @n1: the value to be updated to (98)
+ * Return: always (0)
  */
-int main(void)
+void reset_to_98(int 'n')
 {
-    int n;
-
-    n = 402;
-    printf("n=%d\n", n);
-    reset_to_98(&amp;n);
-    printf("n=%d\n", n);
-    return (0);
+*'n' = 98;
 }
